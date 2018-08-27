@@ -2,11 +2,6 @@ p {
   padding: .5%;
 } 
 
-.background {
-  background-image: linear-gradient(to top left, blue, yellow);
-  padding: 1em;
-}
-
 body {
   font-family: sans-serif;
   font-size: 75%;
@@ -34,6 +29,11 @@ button {
   
 }
 
+.flex-title {
+  display: flex;
+  justify-content: center;
+}
+
 .portfolio-item {
   background-color: red;
   padding: .5em;
@@ -41,4 +41,9 @@ button {
 
 .other-portfolio-links {
   float:right;
+}
+
+.background {
+  background-image: linear-gradient(to top left, blue, yellow);
+  padding: 1em;
 }
