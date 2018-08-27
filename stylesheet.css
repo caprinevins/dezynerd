@@ -26,11 +26,18 @@ h3 {
 }
 
 button {
-  
+  padding: .5em;
 }
 
+/*This class is for Titles of pages*/
 .flex-title {
   display: flex;
+  justify-content: center;
+}
+
+.button-flex {
+  display: flex;
+  flex-direction: row;
   justify-content: center;
 }
 
