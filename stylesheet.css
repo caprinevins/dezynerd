@@ -2,14 +2,16 @@ p {
   padding: .5%;
 } 
 
+.background {
+  background-image: linear-gradient(to top left, blue, yellow);
+  padding: 1em;
+}
+
 body {
   font-family: sans-serif;
   font-size: 75%;
   line-height: 1.4em;
   padding: .5%;
-  max-width: 800px;
-  min-width: 250px;
-  margin: 10px auto 10px auto;
 }
 
 footer {
@@ -28,3 +30,15 @@ h3 {
   font-size: 100%;
 }
 
+button {
+  
+}
+
+.portfolio-item {
+  background-color: red;
+  padding: .5em;
+}
+
+.other-portfolio-links {
+  float:right;
+}
